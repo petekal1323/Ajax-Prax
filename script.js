@@ -11,6 +11,6 @@ btn.addEventListener("click", function(){
     }
   }
 
-  XHR.open("GET","https://dog.ceo/api/breeds/image/random")
+  XHR.open("GET","https://dog.ceo/api/breeds/image/random");
 	XHR.send();
 });
